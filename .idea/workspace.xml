@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a1fd111-2c62-4d61-b343-d28ecaef970e" name="Changes" comment="primer commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/slois97/practica_watts_back.git",
+    "accountId": "b876d5f0-be0e-4751-9759-540dacee703a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38AFwmnKSoBxD9sOSuxzbEuBIOG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sergi/OneDrive/Escritorio/DAM/practicas/back_sergio",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="maven" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="back_sergio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="back_sergio" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1fd111-2c62-4d61-b343-d28ecaef970e" name="Changes" comment="" />
+      <created>1768234709644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768234709644</updated>
+    </task>
+    <task id="LOCAL-00001" summary="database">
+      <option name="closed" value="true" />
+      <created>1768257537865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768257537865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se crea la carpeta security con usuarios y login">
+      <option name="closed" value="true" />
+      <created>1768336269402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768336269403</updated>
+    </task>
+    <task id="LOCAL-00003" summary="se soluciona problema en la consulta login">
+      <option name="closed" value="true" />
+      <created>1768386866289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768386866289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="se añade la carpeta inventario con la entidad almacen e inventario">
+      <option name="closed" value="true" />
+      <created>1768428577865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768428577865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="se añade swagger">
+      <option name="closed" value="true" />
+      <created>1768475404131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768475404132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se añaden los DTO de almacen">
+      <option name="closed" value="true" />
+      <created>1768491808461</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768491808461</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se adapta el controller a los dto">
+      <option name="closed" value="true" />
+      <created>1768492337556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768492337556</updated>
+    </task>
+    <task id="LOCAL-00008" summary="configuracion cors y retoque de authController y jwt">
+      <option name="closed" value="true" />
+      <created>1768860663651</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768860663651</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Se añaden metodos al almacenController y los roles de almacen">
+      <option name="closed" value="true" />
+      <created>1770161150948</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770161150948</updated>
+    </task>
+    <task id="LOCAL-00010" summary="se añade la variable activo y se ejoran los metodos de almacen">
+      <option name="closed" value="true" />
+      <created>1770498071725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770498071725</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Se añade la variable de almacen en variantes y se crea almacenResumen">
+      <option name="closed" value="true" />
+      <created>1770921139590</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770921139590</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Se añade el servicio EmailService para enviar correos al hacer un movimiento">
+      <option name="closed" value="true" />
+      <created>1771029550977</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771029550977</updated>
+    </task>
+    <task id="LOCAL-00013" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1771200763939</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771200763939</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="database" />
+    <MESSAGE value="se crea la carpeta security con usuarios y login" />
+    <MESSAGE value="se soluciona problema en la consulta login" />
+    <MESSAGE value="se añade la carpeta inventario con la entidad almacen e inventario" />
+    <MESSAGE value="se añade swagger" />
+    <MESSAGE value="Se añaden los DTO de almacen" />
+    <MESSAGE value="Se adapta el controller a los dto" />
+    <MESSAGE value="configuracion cors y retoque de authController y jwt" />
+    <MESSAGE value="Se añaden metodos al almacenController y los roles de almacen" />
+    <MESSAGE value="se añade la variable activo y se ejoran los metodos de almacen" />
+    <MESSAGE value="Se añade la variable de almacen en variantes y se crea almacenResumen" />
+    <MESSAGE value="Se añade el servicio EmailService para enviar correos al hacer un movimiento" />
+    <MESSAGE value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+  </component>
+</project>
