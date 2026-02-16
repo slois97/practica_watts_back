@@ -1,0 +1,46 @@
+server:
+  port: ${PORT:8080}
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # En producción se deberán configurar las variables de entorno DB_URL, DB_USERNAME y DB_PASSWORD
+    # en local, si no existen, se usarán los valores después de los dos puntos
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:practica_watts}?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root123}
+    hikari:
+      max-lifetime: 900000 #15 minutos
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  application:
+    name: watts-back
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  mail:
+    host: ${MAIL_HOST:localhost}
+    port: ${MAIL_PORT:465}
+    username: ${MAIL_USERNAME:usuario}
+    password: ${MAIL_PASSWORD:contraseña}
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: ${MAIL_SSL_ENABLED:false}
+            trust: "*"
+jwt:
+  # En producción se deberá configurar la variable de entorno JWT_SECRET
+  # de momento se usa el string de aquí
+  secret: ${JWT_SECRET:WATTS_SUPER_CLAVE_SECRETA_DE_64_CARACTERES_MINIMO_2026_PRODUCCION_OK}
+  expiration: 86400000
+ftp:
+  server: ${FTP_SERVER:localhost}
+  port: ${FTP_PORT:21}
+  user: ${FTP_USER:user}
+  password: ${FTP_PASSWORD:user}
+  path: ${FTP_PATH:/fileuploads/}
